@@ -1,0 +1,32 @@
+# Environment / secrets — NEVER commit
+.env
+.env.*
+!.env.example
+
+# Runtime credential + user stores
+user_credentials.json
+admin_users.json
+*.session
+
+# Generated output
+temp_reports/
+*.png
+*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Databases & logs
+*.db
+*.sqlite3
+*.log
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
